@@ -1,128 +1,131 @@
-
-
 @media (max-width: 768px) {
-  html {
-    font-size: 14px;
-  }
-    
+    html {
+        font-size: 14px;
+    }
+
     .flex-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .pricebox {
-    /* text-align: right; */
-    line-height: 1.3;
-    width: 65%;
-}
-    
+        line-height: 1.3;
+        width: 65%;
+    }
+
     .common {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
 }
-    
-  }
 
 @media (max-width: 548px) {
-    
+
     .hash {
-    width: 100%;
-    padding: 9px;
-}
+        width: 100%;
+        padding: 9px;
+    }
+
     .rightdflex h3 {
-    color: #ff6b82;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 20px;
-}
-    
+        color: #ff6b82;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 20px;
+    }
+
     .leftdflex h3 {
-    color: black;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 19px;
-}
-    
+        color: black;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 19px;
+    }
+
     .accordian-item-header {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-        
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+
     }
-    
+
     .accordian {
-    width: 96%;
-    background-color: white;
-    padding: 16px;
-    max-width: 621px;
-    margin: 2rem auto;
-}
-    .topprice h4 {
-    font-size: 18px;
-    font-family: 'Inter';
-    font-weight: 500;
-}
-    
-    .flex1 {
-    display: flex;
-    align-content: center;
-    align-items: flex-end;
-    justify-content: space-between;
-                flex-direction: column;
-} 
-    .flex2 {
-    display: flex;
-        flex-direction: column;
-    align-content: center;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-    .choose {
-    width: 100%;
-    padding: 7px;
-}
-    
-}
-   
-@media (max-width: 460px) {
-    
-    .choose {
-    width: 100%;
-    padding: 7px;
-}
-    
-    .most-popular {
-    background-color: #ff6b82;
-    color: #ffffff;
-    border-bottom-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    font-size: 12px;
-        
+        width: 96%;
+        background-color: white;
+        padding: 16px;
+        max-width: 621px;
+        margin: 2rem auto;
     }
-    h1::before, h1::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 18%;
-    height: 0.1rem;
-    background-color: #C8C8C8;
+
+    .topprice h4 {
+        font-size: 18px;
+        font-family: 'Inter';
+        font-weight: 500;
+    }
+
+    .flex1 {
+        display: flex;
+        align-content: center;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .choose {
+        width: 100%;
+        padding: 7px;
+    }
+
 }
-    
+
+@media (max-width: 460px) {
+
+    .choose {
+        width: 100%;
+        padding: 7px;
+    }
+
+    .most-popular {
+        background-color: #ff6b82;
+        color: #ffffff;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        font-size: 12px;
+
+    }
+
+    h1::before,
+    h1::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 18%;
+        height: 0.1rem;
+        background-color: #C8C8C8;
+    }
+
     .rightdflex h3 {
         color: #ff6b82;
         font-family: 'Inter';
         font-weight: 500;
         font-size: 17px;
     }
-        .leftdflex h3 {
+
+    .leftdflex h3 {
         color: black;
         font-family: 'Inter';
         font-weight: 400;
         font-size: 16px;
     }
-    
+
 }
-   

@@ -196,7 +196,7 @@ font-family: 'Inter';
   content: "";
   position: absolute;
   top: 2.8px;     /* Adjust to create space */
-  left: 2.7px;    /* Adjust to create space */
+  left: 2.8px;    /* Adjust to create space */
   width: 12px;  /* Adjust to fit inside */
   height: 12px; /* Adjust to fit inside */
   background-color: #ff6b82; /* Color when checked */
